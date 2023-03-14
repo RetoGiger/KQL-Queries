@@ -1,6 +1,7 @@
 # Print Amount of billable Data
 
 ## List Costs for each table 
+Adjust the value in the last line according to the price per GB your company pays. (can be found in the sentinel Workspace -> Cost Management)
 
 ```Kusto
 union withsource=TableName1 *
